@@ -6,8 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Vaikunth Sridharan
- * PrimsAlgoMain class
+ * @author Vaikunth Sridharan PrimsAlgoMain class
  */
 public class PrimsAlgoMain {
 
@@ -99,7 +98,8 @@ public class PrimsAlgoMain {
 				System.out.println();
 			}
 		}
-		System.out.println("The total cost of the spanning tree is " + totalSum);
+		System.out
+				.println("The total cost of the spanning tree is " + totalSum);
 	}
 
 	/**
@@ -121,11 +121,16 @@ public class PrimsAlgoMain {
 	}
 
 	public static void main(String[] args) {
-
+		BufferedReader inputFile = null;
 		try {
+			if (args.length > 0)
+				inputFile = new BufferedReader(new FileReader(args[0]));
+			else {
+				System.out
+						.println("OOPS! ERROR: NO ARGUMENTS PROVIDED\nUSAGE : PrimsAlgoMain.java <FILE_NAME>\nNOTE  : Text file Necessary");
 
-			BufferedReader inputFile = new BufferedReader(new FileReader(
-					"input8.txt"));
+			}
+
 			vertices = new ArrayList<Integer>();
 			numberOfVertices = Integer.parseInt(inputFile.readLine());
 			int[][] mat = new int[numberOfVertices * 2][4];
@@ -157,11 +162,13 @@ public class PrimsAlgoMain {
 			inputFile.close();
 
 		} catch (FileNotFoundException e) {
-
 			System.out.println("The file has not been found!");
 		} catch (IOException e) {
 
 			System.out.println("IO Exception found!");
+		} catch (NullPointerException e) {
+		
+
 		}
 	}
 
