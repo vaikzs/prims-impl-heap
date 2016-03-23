@@ -1,3 +1,4 @@
+# Prim's Algorithm
 ## Synopsis
 Implementation of Prim's Algorithm using Heap data structure (coded in arrays from scratch) that can compute the overall spanning weight.
 ## Software Specifications
