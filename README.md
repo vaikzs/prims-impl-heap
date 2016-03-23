@@ -10,10 +10,16 @@ Implementation of Prim's Algorithm using Heap data structure (coded in arrays fr
 ## How to run ? 
 Create a new folder in your system. 
 Download this repository's files into that folder.
-Make sure the following commands are running from your terminal
+Make sure the following commands are running from your terminal/command-line,
+Windows 
 ~~~~sh
 javac -version
 java -version
+~~~~
+Ubuntu Linux
+~~~~sh
+javac --version
+java --version
 ~~~~
 Compile the TestHeapMain.java file using the below command
 ~~~~sh
