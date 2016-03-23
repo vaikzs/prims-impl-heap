@@ -37,3 +37,5 @@ java PrimsAlgoMain input8.txt
 ## References 
 1. Kleinberg, J., & Tardos, E. (2005). Algorithm design. Boston: Pearson/Addison-Wesley.
 2. Lecture Slides - http://www.cs.princeton.edu/~wayne/kleinberg-tardos/
+
+##### Copyrights (C) Vaikunth Sridharan
