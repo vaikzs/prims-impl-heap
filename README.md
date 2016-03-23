@@ -1,12 +1,11 @@
 ## Synopsis
-Implementation of Prim's Algorithm using Heap data structure (coded in arrays from scratch) that can compute the overall spanning weightage.
-## Hardware Specifications
-+ i7 3rd Generation Quad Core Processor 
-+ 16 Gb of RAM 
+Implementation of Prim's Algorithm using Heap data structure (coded in arrays from scratch) that can compute the overall spanning weight.
 ## Software Specifications
 + JDK 1.8 
 + JRE 1.8 
-+ Eclipse IDE 
+## Hardware Specifications
++ i7 3rd Generation Quad Core Processor 
++ 16 Gb of RAM 
 ## How to run ? 
 Create a new folder in your system. 
 Download this repository's files into that folder.
