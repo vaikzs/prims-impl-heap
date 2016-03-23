@@ -7,6 +7,16 @@ Implementation of Prim's Algorithm using Heap data structure (coded in arrays fr
 ## Hardware Specifications
 + i7 3rd Generation Quad Core Processor 
 + 16 Gb of RAM 
+## Input data format requirements
+n
+
+v1    v2  w1,2
+
+...
+
+v3    v9  w3,9
+
+...
 ## How to run ? 
 Create a new folder in your system. 
 Download this repository's files into that folder.
