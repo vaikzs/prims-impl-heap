@@ -43,7 +43,7 @@ javac PrimsAlgoMain.java
 ~~~~sh 
 java PrimsAlgoMain input8.txt
 ~~~~
-## Average Running time
+## Average Running time to Estimate Time Complexity
 ![Number of vertices vs Time (ms)](https://bytebucket.org/vaikunthsridharan/prims-algorithm-using-heap-data-structure/raw/6829f03f1eac3f25cd9dbaf7f8e85edcb0a56be5/images/Plot.png)
 ## References 
 1. Kleinberg, J., & Tardos, E. (2005). Algorithm design. Boston: Pearson/Addison-Wesley.
